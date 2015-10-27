@@ -1,0 +1,58 @@
+@import url(http://fonts.googleapis.com/css?family=Varela+Round);
+@import url(http://necolas.github.io/normalize.css/3.0.2/normalize.css);
+* {
+  box-sizing: border-box; }
+
+body {
+  background-color: #ECEEEF;
+  font-family: "Varela Round";
+  text-align: center;
+  width: 80%;
+  margin: 100px auto;
+  padding: 0; }
+
+h1 {
+  padding-top: 20px;
+  font-size: 1.6em;
+  color: whitesmoke; }
+
+#container {
+  margin-top: -40px;
+  background-color: cornflowerblue; }
+
+ol {
+  display: inline-block;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-size: 11px;
+  list-style-type: none; }
+  ol li {
+    text-align: left;
+    padding: 10px 2%;
+    border-top: 1px solid darkgrey;
+    background-color: whitesmoke; }
+    ol li:first-of-type {
+      border-top: none; }
+    ol li span {
+      float: right;
+      color: navy; }
+  ol li.current {
+    background-color: powderblue; }
+
+button {
+  background-color: rgba(255, 255, 255, 0.4);
+  border-style: none;
+  border-radius: 5px;
+  color: whitesmoke;
+  padding: 10px;
+  width: 75px;
+  cursor: pointer;
+  margin: 10px 25px; }
+  button:hover {
+    background-color: powderblue; }
+
+button.clicked {
+  background-color: deepskyblue; }
+
+/*# sourceMappingURL=style.css.map */
